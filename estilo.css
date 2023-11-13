@@ -1,0 +1,143 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+nav>a, .links>a, .carbono>a{
+    padding: 10px 5px;
+}
+
+nav>a, .links>a, .carbono>a, footer{
+    color: grey;
+}
+
+nav>a:hover, .language:hover, .links>a:hover, .carbono>a:hover{
+    text-decoration: underline;
+}
+
+.user{
+    margin: 10px 10px 10px 0px;
+    width: 40px;
+}
+
+.apps{
+    width: 25px;
+    padding: 1px;
+    margin: 0px 15px;
+}
+
+nav, main, .barra, .links_gerais{
+    display: flex;
+}
+
+nav{
+    justify-content: flex-end;
+    align-items: center;
+}
+
+main, .links_gerais{
+    align-items: center;
+    flex-direction: column;
+}
+
+.barra{
+    flex-direction: row;
+}
+
+.google{
+    margin: 100px 0px 35px 0px;
+    width: 272px;
+}
+
+.mic{
+    width: 30px;
+    padding: 6px 10px;
+}
+
+.teclado{
+    width: 30px;
+    padding: 10px;
+}
+
+.lupa{
+    height: 20px;
+    padding: 13px;
+}
+
+.input{
+    width: 450px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+
+.barra{
+    border: 1px solid rgba(128, 128, 128, 0.5);
+    box-shadow: 1px 1px 5px 1px white;
+    border-radius: 100px;
+    width: 580px;
+    height: 45px;
+}
+
+.barra:hover, button:hover {
+    box-shadow: 1px 1px 5px 1px rgba(128, 128, 128, 0.5);
+    cursor: pointer;
+}
+
+.barra:hover{
+    border: 1px solid white;
+}
+
+button{
+    margin: 30px 5px;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: rgba(211, 211, 211, 0.25);
+}
+
+.b_text{
+    color: rgba(0, 0, 0, 0.76);
+}
+
+hr{
+    height: 1px;
+    background-color: rgba(128, 128, 128, 0.25);
+    border: none;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(211, 211, 211, 0.25);
+}
+
+.links>a, .carbono, .portugal, .butoes>p,.b_text{
+    font-size: 15px;
+}
+
+.folha{
+    width: 12px;
+}
+
+.portugal{
+    padding-left: 25px;
+}
+
+.links_gerais{
+    margin: 10px 0px;
+}
+
+.carbono{
+    margin: 5px 0px 35px 0px;
+}
+
+.link_pesquisa{
+    margin-right: 150px;
+}
